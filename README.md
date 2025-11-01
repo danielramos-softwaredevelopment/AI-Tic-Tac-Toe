@@ -71,4 +71,4 @@ This makes the AI impossible to beat — every game is either a win or a draw fo
 ---
 
 Author
-<p align="center"> <b>Daniel Ramos</b> <br/>Software Developer | React Enthusiast | AI Explorer <br/><a href="https://github.com/danielramos-softwaredevelopment">GitHub</a> • <a href="https://www.linkedin.com/in/danielramos-softwaredevelopment">LinkedIn</a> </p>
+<p align="center"> <b>Daniel Ramos</b> <br/>Software Developer | React Enthusiast | AI Explorer <br/><a href="https://github.com/danielramos-softwaredevelopment">GitHub</a>
