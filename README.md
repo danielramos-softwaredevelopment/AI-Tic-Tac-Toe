@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+<h1 align="center">AI Tic-Tac-Toe</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <strong>A smart Tic-Tac-Toe game powered by AI, built with React.</strong><br/>
+  Play against an unbeatable opponent that uses the <b>Minimax algorithm</b> to make optimal moves every time!
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://danielramos-softwaredevelopment.github.io/AI-Tic-Tac-Toe">
+    🎮 <b>Play Live Demo</b>
+  </a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.3.1-blue?style=flat&logo=react" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat" />
+  <img src="https://img.shields.io/badge/AI-Minimax-orange?style=flat" />
+  <img src="https://img.shields.io/badge/Deployed-GitHub%20Pages-blueviolet?style=flat" />
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p><b>Features</b></p>
+- Three difficulty levels — Beginner, Intermediate, and Expert  
+- AI uses **Minimax** for perfect play (it never loses!)  
+- Move history and **time travel**  
+- Smart strategy: winning moves → blocking → center → corners → sides  
+- Scoreboard with reset and difficulty selection  
+- Fully responsive — works on mobile and desktop  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+<p><b>Tech Stack</b></p>
+|  Category  |             Technology                    |
+|------------|-------------------------------------------|
+| Frontend   | [React](https://react.dev)                |
+| AI Logic   | Minimax Algorithm                         |
+| Styling    | CSS                                       |
+| Deployment | [GitHub Pages](https://pages.github.com/) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+<p><b>Getting Started</b></p>
+Clone and run the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository
+git clone https://github.com/danielramos-softwaredevelopment/AI-Tic-Tac-Toe.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Move into the project directory
+cd AI-Tic-Tac-Toe
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies
+npm install
 
-### `npm run eject`
+4. Start the development server
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p><b>AI Logic Explained</b></p>
+The Minimax algorithm allows the AI to:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Simulate all possible future moves.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Evaluate the best possible outcome for both sides.
 
-## Learn More
+Choose the move that guarantees a win or draw.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This makes the AI impossible to beat — every game is either a win or a draw for the computer.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is open source under the MIT License.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author
+<p align="center"> <b>Daniel Ramos</b> <br/>💼 Software Developer | React Enthusiast | AI Explorer <br/><a href="https://github.com/danielramos-softwaredevelopment">GitHub</a> • <a href="https://www.linkedin.com/in/danielramos-softwaredevelopment">LinkedIn</a> </p>
