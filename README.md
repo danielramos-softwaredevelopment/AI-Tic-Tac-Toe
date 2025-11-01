@@ -30,15 +30,43 @@
 
 ---
 
-<p><b>Tech Stack</b></p>
-| Category | Technology |<br/>
-|-----------|-------------|<br/>
-| Frontend | [React](https://react.dev) |<br/>
-| AI Logic | Minimax Algorithm |<br/>
-| Styling | CSS |<br/>
-| Deployment | [GitHub Pages](https://pages.github.com/) |<br/>
+<h2 align="center">Tech Stack</h2>
 
----
+<div align="center" style="display: flex; justify-content: center; margin: 20px 0;">
+  <table style="border-collapse: collapse; width: 90%; max-width: 600px; text-align: left; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #f7fbff;">
+    <thead style="background: linear-gradient(135deg, #89f7fe, #66a6ff); color: white;">
+      <tr>
+        <th style="border: 1px solid #ddd; padding: 10px;">Category</th>
+        <th style="border: 1px solid #ddd; padding: 10px;">Technology</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Frontend</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>, 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>, 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">API</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">
+          <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Styling</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">Custom Light Blue UI with Gradients</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Deployment</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">
+          <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>---
 
 <p><b>Getting Started</b></p>
 Clone and run the project locally:
