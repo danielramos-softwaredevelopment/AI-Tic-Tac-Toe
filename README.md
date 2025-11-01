@@ -31,11 +31,11 @@
 ---
 
 <p><b>Tech Stack</b></p>
-|  Category  |             Technology                    |<br/>
-|------------|-------------------------------------------|<br/>
-| Frontend   | [React](https://react.dev)                |<br/>
-| AI Logic   | Minimax Algorithm                         |<br/>
-| Styling    | CSS                                       |<br/>
+| Category | Technology |<br/>
+|----------|----------|<br/>
+| Frontend | [React](https://react.dev) |<br/>
+| AI Logic | Minimax Algorithm |<br/>
+| Styling | CSS |<br/>
 | Deployment | [GitHub Pages](https://pages.github.com/) |<br/>
 
 ---
