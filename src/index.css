@@ -1,0 +1,199 @@
+/* ===== General Layout ===== */
+
+/* ===== Difficulty Buttons ===== */
+.difficulty-select {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.difficulty-select button {
+  background-color: #00ff99;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 8px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.difficulty {
+  background-color: #00ff99;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.difficulty:hover {
+  background-color: #ddd;
+  transform: scale(1.05);
+}
+
+body {
+  background: linear-gradient(135deg, #2a2a72, #009ffd);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.game-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+gap: 1rem;
+}
+
+/* ===== Board Styling ===== */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 100px));
+  grid-template-rows: repeat(3, minmax(80px, 100px));
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: max-content;
+}
+
+/* ===== Square Styling ===== */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.square:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.square.highlight {
+  background-color: #00ff99;
+  color: #1a1a1a;
+  transform: scale(1.1);
+}
+
+/* ===== Scoreboard & Buttons ===== */
+.scoreboard {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.reset-btn {
+  background-color: #00ff99;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.reset-btn:hover {
+  background-color: #00cc7a;
+  transform: scale(1.05);
+}
+
+/* ===== Move History Section ===== */
+.history {
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  margin-inline: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.history h3 {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.history button {
+  background-color: #00ff99;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 80%;
+  transition: all 0.25s ease;
+}
+
+.history button:hover {
+  background-color: #00cc7a;
+  transform: translate(-2px);
+}
+
+.history button:active {
+  transform: scale(0.98);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+  .board {
+    grid-template-columns: repeat(3, minmax(60px, 90px));
+    grid-template-rows: repeat(3, minmax(60px, 90px));
+    gap: 8px;
+  }
+
+  .square {
+    font-size: 1.8rem;
+    width: 70px;
+    height: 70px;
+  }
+
+  .reset-btn {
+    padding: 8px 18px;
+  }
+
+  .history {
+    padding: 15px;
+    gap: 8px;
+  }
+
+  .history button {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
