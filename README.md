@@ -32,7 +32,7 @@
 
 <p><b>Tech Stack</b></p>
 | Category | Technology |<br/>
-|----------|----------|<br/>
+|-----------|-------------|<br/>
 | Frontend | [React](https://react.dev) |<br/>
 | AI Logic | Minimax Algorithm |<br/>
 | Styling | CSS |<br/>
