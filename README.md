@@ -22,7 +22,7 @@
 
 <p><b>Features</b></p>
 - Three difficulty levels — Beginner, Intermediate, and Expert  
-- AI uses **Minimax** for perfect play (it never loses!)  
+- AI uses **Minimax** for perfect play (on expert mode!)  
 - Move history and **time travel**  
 - Smart strategy: winning moves → blocking → center → corners → sides  
 - Scoreboard with reset and difficulty selection  
@@ -66,7 +66,7 @@ Evaluate the best possible outcome for both sides.
 
 Choose the move that guarantees a win or draw.
 
-This makes the AI impossible to beat — every game is either a win or a draw for the computer.
+This makes the AI impossible to beat — every expert game is either a win or a draw for the computer.
 
 ---
 
