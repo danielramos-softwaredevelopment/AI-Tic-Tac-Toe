@@ -31,12 +31,12 @@
 ---
 
 <p><b>Tech Stack</b></p>
-|  Category  |             Technology                    |
-|------------|-------------------------------------------|
-| Frontend   | [React](https://react.dev)                |
-| AI Logic   | Minimax Algorithm                         |
-| Styling    | CSS                                       |
-| Deployment | [GitHub Pages](https://pages.github.com/) |
+|  Category  |             Technology                    |<br/>
+|------------|-------------------------------------------|<br/>
+| Frontend   | [React](https://react.dev)                |<br/>
+| AI Logic   | Minimax Algorithm                         |<br/>
+| Styling    | CSS                                       |<br/>
+| Deployment | [GitHub Pages](https://pages.github.com/) |<br/>
 
 ---
 
@@ -70,11 +70,5 @@ This makes the AI impossible to beat — every game is either a win or a draw fo
 
 ---
 
-📄 License
-
-This project is open source under the MIT License.
-
----
-
 Author
-<p align="center"> <b>Daniel Ramos</b> <br/>💼 Software Developer | React Enthusiast | AI Explorer <br/><a href="https://github.com/danielramos-softwaredevelopment">GitHub</a> • <a href="https://www.linkedin.com/in/danielramos-softwaredevelopment">LinkedIn</a> </p>
+<p align="center"> <b>Daniel Ramos</b> <br/>Software Developer | React Enthusiast | AI Explorer <br/><a href="https://github.com/danielramos-softwaredevelopment">GitHub</a> • <a href="https://www.linkedin.com/in/danielramos-softwaredevelopment">LinkedIn</a> </p>
